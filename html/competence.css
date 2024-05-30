@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+.container {
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2)
+   
+}
+
+.container img {
+    height: 300px;
+    width: 200px;
+    float: left;
+    object-fit: cover;
+    margin-right: 100px;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+}
+
+.container li {
+
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.container2 {
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #fff3f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2);
+     display: flex;
+    
+}
+
+
+.container2 img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.container2 li {
+
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+
+
+.btn {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #ff0c0c;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: #fff;
+}
+.hero {
+    padding: 100px 20px;
+    background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+    text-align: center;
+}
