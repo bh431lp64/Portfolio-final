@@ -44,7 +44,7 @@ nav ul li a:hover {
     border-radius: 25px;
     text-decoration: none;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .btn:hover {
@@ -100,7 +100,7 @@ h2 {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
 #contact button:hover {
